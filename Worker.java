@@ -2,7 +2,7 @@ package org.example;
 
 public class Worker implements Runnable{
 
-    private  Mine mine;
+    private Mine mine;
     private Castle castle;
 
     Worker(Mine mine, Castle castle) {
